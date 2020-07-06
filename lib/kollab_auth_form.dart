@@ -129,7 +129,7 @@ class _LoginFormState extends State<LoginForm> {
       onPressed: openForgotPassword,
       child: Text(widget.forgotLoginLabel,
           style: Theme.of(context).textTheme.button.copyWith(
-                color: Theme.of(context).textTheme.body1.color,
+                color: Theme.of(context).textTheme.bodyText2.color,
               )),
     );
 
